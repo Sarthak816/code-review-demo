@@ -24,4 +24,6 @@ def get_large_list():
     for i in range(1000000):
         big_list.append(i)
     return big_list
-
+def multiply(a, b):
+    # Another function without type hints
+    return a * b
